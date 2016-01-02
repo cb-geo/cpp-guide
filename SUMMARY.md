@@ -1,3 +1,3 @@
 # Summary
 
-* [Naming rules](chapter1.md)
+* [Naming rules](naming_rules.md)
