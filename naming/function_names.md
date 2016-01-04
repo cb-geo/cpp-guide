@@ -2,7 +2,7 @@
 
 #### Regular Functions
 
-Functions should be lower case. Use underscores to seperate words.
+> **Note** Functions should be lower case. Use underscores to seperate words.
 
 If your function crashes upon an error, you should append _or_die to the function name. This only applies to functions which could be used by production code and to errors that are reasonably likely to occur during normal operation.
 
@@ -14,7 +14,9 @@ open_file_or_die()
 
 #### Accessors and Mutators
 
-Accessors and mutators should match the name of the variable. It is preferrable to overload the accessors and mutator functions. This shows an excerpt of a class whose instance variable is `mean_area_`.
+> **Note** Accessors and mutators should match the name of the variable. It is preferrable to overload the accessors and mutator functions. 
+
+This shows an excerpt of a class whose instance variable is `mean_area_`.
 
 ```cpp
 class ElementBase {

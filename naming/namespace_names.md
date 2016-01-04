@@ -1,8 +1,11 @@
 ### Namespace names
-Namespace names are all lower-case, and keep it meaningful. Top-level namespace names are based on the project name `mpm_material`.
+
+> **Note** Namespace names are all lower-case, and keep it meaningful. Top-level namespace names are based on the project name `mpm_material`.
 
 ### Enumeration names
-Preferably, the individual enumerators should be named like constants. The enumeration name, FemShapeFunctions (and FeNumericalError), is a type, and therefore mixed case.
+> **Note** Preferably, the individual enumerators should be named like constants.
+
+The enumeration name, FemShapeFunctions (and FeNumericalError), is a type, and therefore mixed case.
 
 ```cpp
 enum FemShapeFunctions {

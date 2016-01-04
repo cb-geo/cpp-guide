@@ -1,6 +1,6 @@
 ## General naming rules
 
-Function names, variable names, and filenames should be descriptive; eschew abbreviation.
+> **Note** Function names, variable names, and filenames should be descriptive; eschew abbreviation.
 
 * Give as descriptive a name as possible, within reason. Do not worry about saving horizontal space as it is far more important to make your code immediately understandable by a new reader. 
 

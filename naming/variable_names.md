@@ -1,6 +1,6 @@
 ## Variable names
 
-The names of variables and data members are all lowercase, with underscores between words. Data members of classes (but not structs) additionally have trailing underscores. For instance: `a_local_variable`, `a_struct_data_member`, `a_class_data_member_`. 
+> **Note** The names of variables and data members are all lowercase, with underscores between words. Data members of classes (but not structs) additionally have trailing underscores. For instance: `a_local_variable`, `a_struct_data_member`, `a_class_data_member_`. 
 
 ### Common variable names
 
@@ -20,7 +20,7 @@ class ElementBase {
     ...
     private:
     double mean_area_;   // OK - underscore at end.
-    double mean_area_;   // OK.
+    double meanarea_;   // OK.
     std::vector<std::shared_ptr<Nodes>> vec_nodes_;  // OK.
 };
 ```
@@ -34,5 +34,5 @@ There are no special requirements for global variables, which should be rare in 
 Constants should be named with all capitals and underscores.
 
 ```cpp
-const double pi = 3.1415926535897;
+const double PI = 3.1415926535897;
 ```
