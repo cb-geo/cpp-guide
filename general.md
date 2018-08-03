@@ -53,3 +53,14 @@ ContinuationIndentWidth: 4
 ...
 
 ```
+
+
+## Clang-tidy
+
+Use clang-tidy to modernise the code / lint checker. Generate `compile_commands.json` file before running `clang-tidy`.
+
+```
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
+
+python run-clang-tidy.py -header-filter='.*' -checks='-*,modernize-use-override' -fix
+```
